@@ -3,9 +3,7 @@
     "name": "Return Google Maps Search",
     "version": "1.0",
     "description": "restores the google maps button to google search",
-    "permissions": [
-        "activeTab"
-    ],
+    "permissions": [],
     "icons": {
         "16": "images/googlemaps.png",
         "32": "images/googlemaps.png",
@@ -18,8 +16,10 @@
                 "scripts/content.js"
             ],
             "matches": [
-                "https://*/*",
-                "http://*/*"
+                "*://*/*"
+            ],
+            "include_globs": [
+                "*://*.google.*/*"
             ]
         }
     ]
