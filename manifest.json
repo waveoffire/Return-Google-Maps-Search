@@ -5,10 +5,10 @@
     "description": "restores the google maps button to google search",
     "permissions": [],
     "icons": {
-        "16": "images/googlemaps.png",
-        "32": "images/googlemaps.png",
-        "48": "images/googlemaps.png",
-        "128": "images/googlemaps.png"
+        "16": "images/maps.png",
+        "32": "images/maps.png",
+        "48": "images/maps.png",
+        "128": "images/maps.png"
     },
     "content_scripts": [
         {
