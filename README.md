@@ -1,5 +1,5 @@
 you can download source code and upload manually to chrome using: Extensions > developer tools turn on > load unpacked
-or wait untill google accept it on web store
+or download from google web store https://chromewebstore.google.com/detail/return-google-maps-search/laglffdpopjblbaombmlldhkofaaelbc?hl=pl
 
 Restore the seamless integration of Google Maps with your Google Search experience using the 'Return Google Maps Search' extension. This lightweight extension brings back the familiar Google Maps button to your Google Search results, providing you with quick and direct access to location information.
 
