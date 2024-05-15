@@ -15,6 +15,8 @@ if (search && window.location.host.includes('google')) {
     }
     let maps_button = elem.cloneNode(true)
     maps_button.firstChild.href = "https://www.google.com/maps/search/" + search
+    maps_button.firstChild.firstChild.innerText = "Maps"
     maps_button.firstChild.firstChild.firstChild.innerText = "Maps"
+
     elem.after(maps_button)
 }
